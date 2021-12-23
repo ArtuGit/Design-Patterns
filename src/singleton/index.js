@@ -1,10 +1,10 @@
-import {Singleton2, Singletons} from "./singletons.js";
+import {Singleton, Singleton2} from "./singleton.js";
 
 function first() {
-  let instanceOne = Singletons.getInstance();
+  let instanceOne = Singleton.getInstance();
   instanceOne.username = "Jack";
 
-  let instanceTwo = Singletons.getInstance();
+  let instanceTwo = Singleton.getInstance();
   console.log("Second Instance: ", instanceTwo.username);
   // Output - Second Instance:  Jack
 

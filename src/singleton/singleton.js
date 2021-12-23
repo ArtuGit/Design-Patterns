@@ -1,6 +1,6 @@
 import {Username} from "./Username.js"
 
-export const Singletons = (function () {
+export const Singleton = (function () {
   let instance;
 
   function createInstance() {
