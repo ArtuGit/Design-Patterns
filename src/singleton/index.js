@@ -1,4 +1,4 @@
-import {Singleton, Singleton2} from "./singleton.js";
+import {Singleton, Singleton2} from "./singletons.js";
 
 function first() {
   let instanceOne = Singleton.getInstance();
